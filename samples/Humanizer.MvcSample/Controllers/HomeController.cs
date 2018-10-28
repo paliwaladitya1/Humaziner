@@ -10,7 +10,8 @@ namespace Humanizer.MvcSample.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start can't start new release.";
+            ViewBag.Message = "Modify this template to jump-start ";
+            ViewBag.Message = "this is nevertheless same";
 
             return View();
         }
